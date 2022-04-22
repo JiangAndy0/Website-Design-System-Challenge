@@ -1,0 +1,170 @@
+body {
+    font-family: 'Noto Sans', Arial, sans-serif;
+    background-color: rgb(231, 231, 231);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+section {
+    padding: 20px;
+}
+
+/*
+<--- Colors Section --->
+*/
+.colors {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#color-boxes-container {
+    margin: auto;
+}
+.color-box {
+    display: inline-block;
+    height: 180px;
+    width: 200px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 25px;
+    text-align: center;
+    margin: 10px 5px;
+}
+
+.color-box h3, .color-box p{
+    line-height: 10px;
+}
+
+
+.color-swatch {
+    height: 100px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+.green .color-swatch{
+    background-color:rgb(153, 210, 166);
+}
+
+.red .color-swatch{
+    background-color:rgb(223, 120, 120);
+}
+
+.warm-red .color-swatch{
+    background-color: rgb(252, 174, 118);
+}
+
+/* 
+<--- Fonts Section --->
+*/
+
+.fonts {
+    background-color:rgb(198, 215, 202);
+    text-align: center;
+}
+
+#font-boxes-container {
+    margin: auto;
+}
+.font-box {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 5px 5px;
+}
+.font-box h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.font-box li {
+    font-size: 16px;
+}
+
+.font-box.lobster-two li {
+    font-size: 20px;
+}
+
+.font-box ul {
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 0 20px;
+}
+.font-box.plus-jakarta-sans {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-box.red-hat-mono {
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.font-box.lobster-two {
+    font-family: 'Lobster Two', serif;
+}
+
+li.weight-300 {
+    font-weight: 300;
+}
+
+li.weight-400 {
+    font-weight: 400;
+}
+
+li.weight-500 {
+    font-weight: 500;
+}
+
+li.weight-700 {
+    font-weight: 700;
+}
+
+li.italic {
+    font-style: italic;
+}
+
+/*
+<--- Text Styles Section --->
+*/
+
+.text-styles {
+    background-color:rgb(220, 203, 203);
+}
+
+#h1-style {
+    font-family: 'Red Hat Mono';
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#h2-style {
+    font-family: 'Lobster Two';
+    font-size: 48px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#h3-style {
+    font-family: 'Red Hat Mono';
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#p-style {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#caption-style{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 12px;
+    font-weight: 300;
+}
+
